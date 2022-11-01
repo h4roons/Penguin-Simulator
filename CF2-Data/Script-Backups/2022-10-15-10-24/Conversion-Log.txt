@@ -1,0 +1,44 @@
+Converting script [1 / 3]	[\Imported Assets\Penguin\Demo\Scripts\PenguinCameraScript.cs]
+	Fragments : 4
+		[ 0] : Line:   23	InputMethod   GetKey              	(KeyCode.Mouse1)
+		[ 1] : Line:   24	InputMethod   GetAxis             	("Mouse X")
+		[ 2] : Line:   25	InputMethod   GetAxis             	("Mouse Y")
+		[ 3] : Line:   29	InputMethod   GetAxis             	("Mouse ScrollWheel")
+
+Converting script [2 / 3]	[\Imported Assets\Penguin\Demo\Scripts\PenguinUserController.cs]
+	Fragments : 18
+		[ 0] : Line:   12	InputMethod   GetButtonDown       	("Fire1")
+		[ 1] : Line:   16	InputMethod   GetButtonDown       	("Jump")
+		[ 2] : Line:   20	InputMethod   GetKeyDown          	(KeyCode.H)
+		[ 3] : Line:   24	InputMethod   GetKeyDown          	(KeyCode.E)
+		[ 4] : Line:   28	InputMethod   GetKeyDown          	(KeyCode.K)
+		[ 5] : Line:   32	InputMethod   GetKeyDown          	(KeyCode.R)
+		[ 6] : Line:   35	InputMethod   GetKeyDown          	(KeyCode.Y)
+		[ 7] : Line:   38	InputMethod   GetKeyDown          	(KeyCode.G)
+		[ 8] : Line:   41	InputMethod   GetKeyDown          	(KeyCode.F)
+		[ 9] : Line:   45	InputMethod   GetKeyDown          	(KeyCode.T)
+		[10] : Line:   48	InputMethod   GetKeyDown          	(KeyCode.V)
+		[11] : Line:   51	InputMethod   GetKeyDown          	(KeyCode.C)
+		[12] : Line:   54	InputMethod   GetKeyDown          	(KeyCode.R)
+		[13] : Line:   58	InputMethod   GetKeyDown          	(KeyCode.I)
+		[14] : Line:   62	InputMethod   GetKeyDown          	(KeyCode.M)
+		[15] : Line:   71	InputMethod   GetAxis             	("Horizontal")
+		[16] : Line:   72	InputMethod   GetAxis             	("Vertical")
+		[17] : Line:   73	InputMethod   GetKey              	(KeyCode.LeftShift)
+
+Converting script [3 / 3]	[\Plugins\Standard Assets\Characters\ThirdPersonCharacter\Scripts\ThirdPersonUserControl.cs]
+	Fragments : 5
+		[ 0] : Line:   40	InputMethod   GetButtonDown       	("Jump")
+		[ 1] : Line:   49	InputMethod   GetAxis             	("Horizontal")
+		[ 2] : Line:   50	InputMethod   GetAxis             	("Vertical")
+		[ 3] : Line:   51	InputMethod   GetKey              	(KeyCode.C)
+		[ 4] : Line:   67	InputMethod   GetKey              	(KeyCode.LeftShift)
+
+
+3 scripts modified!
+Overwriting actual scripts...
+	[0 / 3] from  [D:/Unity/Unity Projects/Penguin Simulator/CF2-Data/Script-Backups/2022-10-15-10-24\Assets-After/\Imported Assets\Penguin\Demo\Scripts\PenguinCameraScript.cs] to [D:/Unity/Unity Projects/Penguin Simulator/Assets/\Imported Assets\Penguin\Demo\Scripts\PenguinCameraScript.cs]
+	[1 / 3] from  [D:/Unity/Unity Projects/Penguin Simulator/CF2-Data/Script-Backups/2022-10-15-10-24\Assets-After/\Imported Assets\Penguin\Demo\Scripts\PenguinUserController.cs] to [D:/Unity/Unity Projects/Penguin Simulator/Assets/\Imported Assets\Penguin\Demo\Scripts\PenguinUserController.cs]
+	[2 / 3] from  [D:/Unity/Unity Projects/Penguin Simulator/CF2-Data/Script-Backups/2022-10-15-10-24\Assets-After/\Plugins\Standard Assets\Characters\ThirdPersonCharacter\Scripts\ThirdPersonUserControl.cs] to [D:/Unity/Unity Projects/Penguin Simulator/Assets/\Plugins\Standard Assets\Characters\ThirdPersonCharacter\Scripts\ThirdPersonUserControl.cs]
+
+Overwriting COMPLETED!
