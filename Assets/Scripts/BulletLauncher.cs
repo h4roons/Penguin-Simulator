@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BulletManager : MonoBehaviour
+public class BulletLauncher : MonoBehaviour
 {
     [SerializeField] private Transform firePoint;
     [SerializeField] private Rigidbody projectilePrefab;
@@ -19,8 +19,10 @@ public class BulletManager : MonoBehaviour
 
     private void LaunchProjectile()
     {
+        //Instantiate a new Bullet
         var projectileInstance = Instantiate(projectilePrefab, firePoint.position, firePoint.rotation);
         
+        //Bullet launching force
         projectileInstance.AddForce(firePoint.up * launchForce);
     }
 }

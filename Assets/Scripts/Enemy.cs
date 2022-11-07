@@ -23,6 +23,7 @@ public class Enemy : MonoBehaviour
     {
         health -= damageAmount; // 100 -> 90 -> 80... -> 0 = Enemy has died
 
+        //Kill enemy after health reaches 0
         if (health <= 0)
         {
             Destroy(gameObject);
